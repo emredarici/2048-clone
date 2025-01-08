@@ -95,4 +95,9 @@ public class GameManager : MonoBehaviour
     {
         return PlayerPrefs.GetInt("highScore", 0);
     }
+
+    public void OpenURL(string url)
+    {
+        Application.OpenURL(url);
+    }
 }
